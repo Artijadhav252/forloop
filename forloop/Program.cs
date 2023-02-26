@@ -1,13 +1,24 @@
-﻿public class Program
+﻿
+
+using forloop;
+public class Program
 {
     public static void Main()
     {
-        FirstNestedLoop1();
-        SecondNestedLoop2();
-        ThirdNestedLoop3();
-        FourthNestedLoop4();
-        FifthNestedLoop5();
-        SixthNestedLoop();
+        //FirstNestedLoop1();
+        //SecondNestedLoop2();
+        //ThirdNestedLoop3();
+        //FourthNestedLoop4();
+        //FifthNestedLoop5();
+        //SixthNestedLoop();
+        //pattern.pattern1();
+        //pattern.pattern2();
+        //pattern.pattern3();
+        //pattern.pattern4();
+        pattern.pattern5();
+        pattern.pattern6();
+      
+
 
         static void FirstNestedLoop1()
         {
@@ -103,5 +114,8 @@
 
         }
 
+
+
     }
+
 }
