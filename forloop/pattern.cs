@@ -18,7 +18,7 @@ namespace forloop
 
             pattern Pattern = new pattern();
             Pattern.NonStaticFunction1();
-();
+
 
 
         }
