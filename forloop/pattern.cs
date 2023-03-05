@@ -10,6 +10,29 @@ namespace forloop
 {
     internal class pattern
     {
+
+
+        public static void Staticfunction()
+        {
+            Staticfunction();
+
+            pattern Pattern = new pattern();
+            Pattern.NonStaticFunction1();
+();
+
+
+        }
+
+        public void NonStaticFunction1()
+        {
+            Staticfunction();
+            NonStaticFunction1();
+
+        }
+        public void NonStaticFunction2()
+        {
+
+        }
         public static void pattern1()
         {
             Console.WriteLine("please enter the limit");

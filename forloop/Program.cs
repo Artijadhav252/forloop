@@ -1,6 +1,8 @@
 ﻿
 
 using forloop;
+using System.Net.Http.Headers;
+
 public class Program
 {
     public static void Main()
@@ -15,9 +17,17 @@ public class Program
         //pattern.pattern2();
         //pattern.pattern3();
         //pattern.pattern4();
-        pattern.pattern5();
-        pattern.pattern6();
-      
+        // pattern.pattern5();
+        //pattern.pattern6();
+        pattern.Staticfunction();
+
+
+        pattern Pattern = new pattern();
+        Pattern.NonStaticFunction1();
+
+
+
+
 
 
         static void FirstNestedLoop1()
