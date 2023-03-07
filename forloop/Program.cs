@@ -13,17 +13,38 @@ public class Program
         //FourthNestedLoop4();
         //FifthNestedLoop5();
         //SixthNestedLoop();
-        //pattern.pattern1();
-        //pattern.pattern2();
-        //pattern.pattern3();
-        //pattern.pattern4();
-        // pattern.pattern5();
-        //pattern.pattern6();
-        pattern.Staticfunction();
+
+        //PatternNumbers.PatternNumbers1();
+        //PatternNumbers.PatternNumbers2();
+        //PatternNumbers.PatternNumbers4();
 
 
-        pattern Pattern = new pattern();
-        Pattern.NonStaticFunction1();
+        //Alphabate.pattern1();
+        //Alphabate.pattern2();
+
+        //pattern.Staticfunction();
+
+        //pattern Pattern = new pattern();
+        // Pattern.NonStaticFunction1();
+
+
+
+        //StarPattern Patternobj1 = new StarPattern();
+        // Patternobj1.StarPattern1();
+
+        //StarPattern Patternobj2 = new StarPattern();
+        // Patternobj2.StarPattern2();
+
+        //StarPattern Pattern = new StarPattern();
+        // Pattern.StarPattern3();
+
+        // Patternobj1.StarPattern2();
+
+        //Patternobj2.StarPattern2();
+
+
+
+
 
 
 
