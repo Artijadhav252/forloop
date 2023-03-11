@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,12 @@ namespace forloop
     {
 
         public int num { get; set; }
+        public static void GetNumberFromUsers()
+        {
+            Console.WriteLine("please enter any limit");
+            string str = Console.ReadLine();
+            var limit = Convert.ToInt32(str);
+        }
 
 
         public static void PatternNumbers1()
@@ -54,7 +61,7 @@ namespace forloop
         }
 
        
-        public static void PatternNumbers4()
+        public static void PatternNumbers3()
         {
             Console.WriteLine("please enter any limit");
             string str = Console.ReadLine();
@@ -72,6 +79,21 @@ namespace forloop
             Console.WriteLine("-----------------------------------------------------------------------------------");
         }
 
+
+        public static  void StarPttern4()
+        {
+            GetNumberFromUsers();
+            for (int i=1; i<=5; i++)
+            {
+                for(int j=1; j<=i; j++)
+                {
+                    Console.WriteLine("*");
+                }
+                Console.WriteLine();
+            }
+         
+
+        }
         
 
 

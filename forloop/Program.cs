@@ -30,17 +30,22 @@ public class Program
 
 
         //StarPattern Patternobj1 = new StarPattern();
-        // Patternobj1.StarPattern1();
+        //Patternobj1.StarPattern1();
 
-        //StarPattern Patternobj2 = new StarPattern();
-        // Patternobj2.StarPattern2();
+        StarPattern Patternobj2 = new StarPattern();
+        Patternobj2.StarPattern2();
 
-        //StarPattern Pattern = new StarPattern();
-        // Pattern.StarPattern3();
+        StarPattern patternobj3 = new StarPattern();
+        patternobj3.StarPattern3();
 
-        // Patternobj1.StarPattern2();
+        StarPattern Patternobj4 = new StarPattern();
+        Patternobj4.StarPattern4();
 
-        //Patternobj2.StarPattern2();
+        StarPattern Patternobj5 = new StarPattern();
+        Patternobj5.StarPttern5();
+
+        StarPattern Patternobj6 = new StarPattern();
+        Patternobj6.StarPattern6();
 
 
 
