@@ -32,123 +32,127 @@ public class Program
         //StarPattern Patternobj1 = new StarPattern();
         //Patternobj1.StarPattern1();
 
-        StarPattern Patternobj2 = new StarPattern();
-        Patternobj2.StarPattern2();
+        //StarPattern Patternobj2 = new StarPattern();
+        //Patternobj2.StarPattern2();
 
-        StarPattern patternobj3 = new StarPattern();
-        patternobj3.StarPattern3();
+        //StarPattern patternobj3 = new StarPattern();
+        //patternobj3.StarPattern3();
 
-        StarPattern Patternobj4 = new StarPattern();
-        Patternobj4.StarPattern4();
+        //StarPattern Patternobj4 = new StarPattern();
+        //Patternobj4.StarPattern4();
 
-        StarPattern Patternobj5 = new StarPattern();
-        Patternobj5.StarPttern5();
+        //StarPattern Patternobj5 = new StarPattern();
+        //Patternobj5.StarPttern5();
 
-        StarPattern Patternobj6 = new StarPattern();
-        Patternobj6.StarPattern6();
-
-
+        //StarPattern Patternobj6 = new StarPattern();
+        //Patternobj6.StarPattern6();
 
 
-
-
+        LogicalLCM logicallcm = new LogicalLCM();
+        logicallcm.Calulatelcm();
 
 
 
 
-        static void FirstNestedLoop1()
-        {
-            Console.WriteLine("-------------------------------------------");
-
-            for (int i = 1; i <= 5; i++)
-            {
-                for (int j = 1; j <= 5; j++)
-                {
-                    Console.Write(j);
-                }
-
-                Console.WriteLine();
-
-            }
-
-        }
-
-        static void SecondNestedLoop2()
-        {
-            Console.WriteLine("-------------------------------------------");
-            for (int i = 5; i >= 1; i--)
-            {
-                for (int j = 5; j >= 1; j--)
-                {
-                    Console.Write(j);
-                }
-
-                Console.WriteLine();
-            }
-
-        }
-
-        static void ThirdNestedLoop3()
-        {
-            Console.WriteLine("-------------------------------------------");
-            for (int i = 1; i <= 5; i++)
-            {
-                for (int j = 1; j <= 5; j++)
-                {
-                    Console.Write(i);
-                }
-
-                Console.WriteLine();
-            }
-
-        }
-
-        static void FourthNestedLoop4()
-        {
-            Console.WriteLine("-------------------------------------------");
-            for (int i = 5; i >= 1; i--)
-            {
-                for (int j = 5; j >= 1; j--)
-                {
-                    Console.Write(i);
-                }
-
-                Console.WriteLine();
-            }
-
-        }
-
-        static void FifthNestedLoop5()
-        {
-            Console.WriteLine("-------------------------------------------");
-            for (int i = 1; i <= 5; i++)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("*");
-                }
-
-                Console.WriteLine();
-            }
-
-        }
 
 
-        static void SixthNestedLoop()
-        {
-            Console.WriteLine("-------------------------------------------");
-            for (int i = 5; i >= 1; i--)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("*");
-                }
-
-                Console.WriteLine();
-            }
 
 
-        }
+
+
+        //static void FirstNestedLoop1()
+        //{
+        //    Console.WriteLine("-------------------------------------------");
+
+        //    for (int i = 1; i <= 5; i++)
+        //    {
+        //        for (int j = 1; j <= 5; j++)
+        //        {
+        //            Console.Write(j);
+        //        }
+
+        //        Console.WriteLine();
+
+        //    }
+
+        //}
+
+        //static void SecondNestedLoop2()
+        //{
+        //    Console.WriteLine("-------------------------------------------");
+        //    for (int i = 5; i >= 1; i--)
+        //    {
+        //        for (int j = 5; j >= 1; j--)
+        //        {
+        //            Console.Write(j);
+        //        }
+
+        //        Console.WriteLine();
+        //    }
+
+        //}
+
+        //static void ThirdNestedLoop3()
+        //{
+        //    Console.WriteLine("-------------------------------------------");
+        //    for (int i = 1; i <= 5; i++)
+        //    {
+        //        for (int j = 1; j <= 5; j++)
+        //        {
+        //            Console.Write(i);
+        //        }
+
+        //        Console.WriteLine();
+        //    }
+
+        //}
+
+        //static void FourthNestedLoop4()
+        //{
+        //    Console.WriteLine("-------------------------------------------");
+        //    for (int i = 5; i >= 1; i--)
+        //    {
+        //        for (int j = 5; j >= 1; j--)
+        //        {
+        //            Console.Write(i);
+        //        }
+
+        //        Console.WriteLine();
+        //    }
+
+        //}
+
+        //static void FifthNestedLoop5()
+        //{
+        //    Console.WriteLine("-------------------------------------------");
+        //    for (int i = 1; i <= 5; i++)
+        //    {
+        //        for (int j = 1; j <= i; j++)
+        //        {
+        //            Console.Write("*");
+        //        }
+
+        //        Console.WriteLine();
+        //    }
+
+        //}
+
+
+        //static void SixthNestedLoop()
+        //{
+        //    Console.WriteLine("-------------------------------------------");
+        //    for (int i = 5; i >= 1; i--)
+        //    {
+        //        for (int j = 1; j <= i; j++)
+        //        {
+        //            Console.Write("*");
+        //        }
+
+        //        Console.WriteLine();
+        //    }
+
+
+        //}
 
 
 
