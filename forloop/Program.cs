@@ -48,9 +48,17 @@ public class Program
         //Patternobj6.StarPattern6();
 
 
-        LogicalLCM logicallcm = new LogicalLCM();
-        logicallcm.Calulatelcm();
+        //Logical logicallcm = new Logical();
+        //logicallcm.Calulatelcm();
 
+        //OddEvenNumber oddeven = new OddEvenNumber();
+        //oddeven.evenNumber();
+
+        //OddEvenNumber oddneven=new OddEvenNumber();
+        //oddeven.oddNumber();
+
+        PrimeNumber primeNumber=new PrimeNumber();
+        primeNumber.CheckPrimeNumber();
 
 
 
