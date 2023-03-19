@@ -57,9 +57,12 @@ public class Program
         //OddEvenNumber oddneven=new OddEvenNumber();
         //oddeven.oddNumber();
 
-        PrimeNumber primeNumber=new PrimeNumber();
-        primeNumber.CheckPrimeNumber();
+        //PrimeNumber primeNumber=new PrimeNumber();
+        //primeNumber.CheckPrimeNumber();
 
+
+        PrimeNumber primeNumber2=new PrimeNumber();
+        primeNumber2.primenumberlimit();    
 
 
 
